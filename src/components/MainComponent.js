@@ -12,6 +12,10 @@ class Main extends Component {
     };
   }
 
+  selectedDish() {
+    this.renderDish(this.props.dishes[this.props.selectedDish]);
+  }
+
   onDishSelect(dishId) {
     this.setState({ selectedDish: dishId });
   }
