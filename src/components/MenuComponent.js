@@ -24,7 +24,7 @@ class Menu extends Component {
   renderDish(dish) {
     if (dish != null)
       return (
-        <Card>
+        <Card key={dish.id} onClick={() => this.props.onClick(dish.id)}>
           <CardImg top src={dish.image} alt={dish.name} />
           <CardBody>
             <CardTitle>{dish.name}</CardTitle>
