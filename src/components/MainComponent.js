@@ -61,14 +61,12 @@ class Main extends Component {
           <Route exact path="/contactus" component={Contact} />
           <Redirect to="/home" />
         </Switch>
-
         {/* <Menu
           dishes={this.state.dishes}
           selectedDish={this.state.selectedDish}
           onClick={(dishId) => this.onDishSelect(dishId)}
-        />
-
-        <Footer /> */}
+        /> */}
+        // <Footer />
       </div>
     );
   }
