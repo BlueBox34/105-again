@@ -66,7 +66,7 @@ class Main extends Component {
           selectedDish={this.state.selectedDish}
           onClick={(dishId) => this.onDishSelect(dishId)}
         /> */}
-        // <Footer />
+        <Footer />
       </div>
     );
   }
